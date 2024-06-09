@@ -12,6 +12,7 @@ body {
   height: 100vh;
 }
 #demo {
+  visibility: hidden; /*important bc of Flash Of Unstyled Content => if the content is hidden, it cant be shown before the animation starts but we also have to change the javascript*/
   position: relative;
   background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/32887/creative-process-bg.png);
   width: 621px;
