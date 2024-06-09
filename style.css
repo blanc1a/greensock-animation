@@ -1,9 +1,75 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
 }
 
 body {
-  background-color: #ea97b9;
+  font-family: "Kanit", sans-serif;
+  background: #252525;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#demo {
+  position: relative;
+  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/32887/creative-process-bg.png);
+  width: 621px;
+  height: 385px;
+  object-fit: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border: 1px solid #333;
+}
+
+#main {
+  position: absolute;
+  width: 250px;
+  top: 90px;
+  left: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 200;
+  margin-top: -10px;
+}
+
+p {
+  font-weight: 200;
+  margin-top: 14px;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+#images {
+  position: absolute;
+  left: 375px;
+  top: 80px;
+}
+
+.myButton {
+  margin-top: 20px;
+  box-shadow: inset 0px 1px 0px 0px #fbafe3;
+  background: linear-gradient(to bottom, #ff905c 5%, #ef027d 100%);
+  border-radius: 17px;
+  border: 1px solid #ee1eb5;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #c70067;
+}
+
+.myButton:active {
+  position: relative;
 }
